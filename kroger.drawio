@@ -1,1 +1,109 @@
-<mxfile host="app.diagrams.net" modified="2022-03-14T00:48:48.565Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" version="16.6.4" etag="OFPkEIch8SLu2xEu6oFQ" type="github"><diagram id="Sxp18wUM-eyT5gk1T0ou">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-14T02:05:36.301Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="DXER4dMe9-4kYGKHBYLD" version="16.6.4" type="github">
+  <diagram id="Sxp18wUM-eyT5gk1T0ou" name="Page-1">
+    <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QbSb5biK4Vg8Tv-DJMMA-1" value="Kroger employees" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="265" y="20" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QbSb5biK4Vg8Tv-DJMMA-2" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;Person&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;PersonID&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;PersonName&lt;br&gt;Gender&lt;br&gt;SocialID&lt;br&gt;Address&lt;br&gt;PhoneNumber&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="120" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="QbSb5biK4Vg8Tv-DJMMA-3" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;Department&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;DepartmentID&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;EmployeeID&lt;br&gt;ManagerID&lt;br&gt;SkillsID&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;DepartmentName&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;DepartmentPhoneNumber&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;DepartmentDuty&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="340" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="QbSb5biK4Vg8Tv-DJMMA-4" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;Employee&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;EmployeeID&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;PersonID&lt;br&gt;SkillID&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;EmployeeName&lt;br&gt;StartDate&lt;br&gt;Schedule&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="340" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="QbSb5biK4Vg8Tv-DJMMA-5" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.372;entryY=-0.021;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.383;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="QbSb5biK4Vg8Tv-DJMMA-2" target="QbSb5biK4Vg8Tv-DJMMA-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="130" y="290" as="sourcePoint" />
+            <mxPoint x="290" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QbSb5biK4Vg8Tv-DJMMA-6" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="180" y="370" as="sourcePoint" />
+            <mxPoint x="370" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QbSb5biK4Vg8Tv-DJMMA-7" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;Skills&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;SkillID&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;PersonID&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;SkillsCategory&lt;br&gt;SkillsName&lt;br&gt;SkillsLevel&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="120" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="QbSb5biK4Vg8Tv-DJMMA-8" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="250" y="180" as="sourcePoint" />
+            <mxPoint x="390" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QbSb5biK4Vg8Tv-DJMMA-9" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.544;entryY=-0.043;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.578;exitY=1.047;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="QbSb5biK4Vg8Tv-DJMMA-15" target="QbSb5biK4Vg8Tv-DJMMA-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="740" y="300" as="sourcePoint" />
+            <mxPoint x="440" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="750" y="310" />
+              <mxPoint x="456" y="300" />
+              <mxPoint x="168" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QbSb5biK4Vg8Tv-DJMMA-10" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;WorkSchedule&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;WorkScheduleID&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;EmployeeID&lt;br&gt;DepartmentID&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;WorkScheduleName&lt;br&gt;StartTime&lt;br&gt;EndTime&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="570" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="QbSb5biK4Vg8Tv-DJMMA-11" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=1.056;entryY=0.72;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QbSb5biK4Vg8Tv-DJMMA-3" target="QbSb5biK4Vg8Tv-DJMMA-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="170" y="530" as="sourcePoint" />
+            <mxPoint x="330" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QbSb5biK4Vg8Tv-DJMMA-12" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.289;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QbSb5biK4Vg8Tv-DJMMA-4" target="QbSb5biK4Vg8Tv-DJMMA-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="110" y="510" as="sourcePoint" />
+            <mxPoint x="270" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QbSb5biK4Vg8Tv-DJMMA-13" value="Job application" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="150" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QbSb5biK4Vg8Tv-DJMMA-14" value="Interview" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="580" y="150" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QbSb5biK4Vg8Tv-DJMMA-15" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;HR&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;HRID&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;PersonID&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;SkillsID&lt;br&gt;&lt;br&gt;interviewDate&lt;br&gt;InterviewResult&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="130" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="QbSb5biK4Vg8Tv-DJMMA-16" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.617;exitY=-0.044;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.6;entryY=-0.047;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QbSb5biK4Vg8Tv-DJMMA-2" target="QbSb5biK4Vg8Tv-DJMMA-15">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="170" y="80" as="sourcePoint" />
+            <mxPoint x="750" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="70" />
+              <mxPoint x="750" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QbSb5biK4Vg8Tv-DJMMA-17" value="1..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="345" y="190" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QbSb5biK4Vg8Tv-DJMMA-19" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="570" y="190" as="sourcePoint" />
+            <mxPoint x="640" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QbSb5biK4Vg8Tv-DJMMA-20" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.878;entryY=1.027;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="QbSb5biK4Vg8Tv-DJMMA-15">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="560" y="420" as="sourcePoint" />
+            <mxPoint x="790" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="790" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
